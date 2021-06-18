@@ -22,18 +22,46 @@
         <h2>Esta área é destinada ao conhecimento. Por favor, sinta-se livre para navegar entre as seções!</h2>
     </header>
     
-    <section>
-        <ul id="themes">
-            <li><button class="button">Português</button></li>
-            <li><button class="button">Matemática</button></li>
-            <li><button class="button">Ciências</button></li>
-            <li><button class="button">História</button></li>
-            <li><button class="button">Geografia</button></li>
-        </ul>
+    <section class="container">
+        <div>
+            <ul>
+                <li><button class="button" onclick="exibeSubtitulos('#sub-theme-por')">Português</button></li>
+                <li><button class="button" onclick="exibeSubtitulos('#sub-theme-mat')">Matemática</button></li>
+                <li><button class="button">Ciências</button></li>
+                <li><button class="button">História</button></li>
+                <li><button class="button">Geografia</button></li>
+            </ul>   
+        </div>
+        <div id="sub-theme-por" class="hidden">
+            <ul>
+                <li><button class="sub-button">Interpretação de texto verbal</button></li>
+                <li><button class="sub-button">Interpretação de texto não verbal</button></li>
+                <li><button class="sub-button">Domínio da norma culta</button></li>
+                <li><button class="sub-button">Análise de discurso</button></li>
+                <li><button class="sub-button">Gêneros textuais</button></li>
+                <li><button class="sub-button">Variação linguística</button></li>
+                <li><button class="sub-button">Leitura e artes</button></li>
+                <li><button class="sub-button">Revisão</button></li>
+            </ul>
+        </div>
+        <div id="sub-theme-mat" class="hidden">
+            <ul>
+                <li><button class="sub-button">Geometria plana</button></li>
+                <li><button class="sub-button">Geometria espacial</button></li>
+                <li><button class="sub-button">Razão e proporção (regra de três)</button></li>
+                <li><button class="sub-button">Estatística</button></li>
+                <li><button class="sub-button">Porcentagem</button></li>
+                <li><button class="sub-button">Função de 1º grau</button></li>
+                <li><button class="sub-button">Função de 2º grau</button></li>
+                <li><button class="sub-button">Função de 3º grau</button></li>
+            </ul>
+        </div>
     </section>
 
     <footer>
         <p>© 2021 Rocket: Aqui, seu conhecimento decola!</p>
-    </footer> 
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

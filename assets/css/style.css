@@ -99,8 +99,8 @@ p {
 }
 
 /* Estilos da página index.html */
-#themes li {
-    text-align: center;
+.hidden {
+    display: none;
 }
 
 .button {
@@ -113,6 +113,20 @@ p {
     border-radius: 1rem;
     text-align: center;
     font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.sub-button {
+    background-color: #dfe6e9;
+    border: none;
+    color: #0c2461;
+    padding: 0.2rem;
+    margin: 0.9rem;
+    width: 20rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 /* Estilos da página sobre.html */
