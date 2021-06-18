@@ -6,14 +6,12 @@
 
 html {
     height: 100vh;
-    width: 100vw;
 }
 
 body {
     background-image: linear-gradient(to bottom, #0c2461, #686b72);
     color: #dfe6e9;
     position: relative;
-    
 } 
 
 header{
